@@ -29,7 +29,7 @@ model = joblib.load("Male_vs_Female_model.pkl")
 IMG_SIZE = 64
 
 st.title("👨‍✈️--👩‍✈️  Male & Female Image Classifier")
-st.write("Upload an image to predict whether it is a Cat or Dog.")
+st.write("Upload an image to predict whether it is a Male or Female.")
 
 # -------------------------
 # Upload Image
