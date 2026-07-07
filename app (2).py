@@ -208,7 +208,7 @@ st.markdown("---")
 st.markdown(
 """
 <div style='text-align:center;color:#CBD5E1;'>
-AI Gender Classification • Competition Project • Built with Streamlit
+AI Gender Classification • Built with Streamlit
 </div>
 """,
 unsafe_allow_html=True
