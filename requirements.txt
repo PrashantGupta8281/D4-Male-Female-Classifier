@@ -3,3 +3,4 @@ opencv-python
 numpy
 scikit-learn
 joblib
+ plotly.graph_objects
