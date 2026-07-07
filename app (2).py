@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import joblib
-import plotly.graph_objects as go
 
 # -------------------------
 # Page Configuration
