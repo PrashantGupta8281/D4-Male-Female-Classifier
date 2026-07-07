@@ -7,8 +7,8 @@ import joblib
 # Page Configuration
 # -------------------------
 st.set_page_config(
-    page_title="Cat vs Dog Classifier",
-    page_icon="🐶",
+    page_title="Male vs Female Classifier",
+    page_icon="👨‍✈️ -👩‍✈️",
     layout="centered"
 )
 
@@ -19,8 +19,8 @@ model = joblib.load("cat_dog_model.pkl")
 
 IMG_SIZE = 64
 
-st.title("🐱 Cat vs Dog Image Classifier")
-st.write("Upload an image to predict whether it is a Cat or Dog.")
+st.title("👨‍✈️ -👩‍✈️ Male vs Female Image Classifier")
+st.write("Upload an image to predict whether it is a Male or Female.")
 
 # -------------------------
 # Upload Image
@@ -57,9 +57,9 @@ if uploaded_file is not None:
 
     # Display prediction
     if prediction == 0:
-        st.success("🐱 Prediction: CAT")
+        st.success("👨‍✈️  Prediction: Male")
     else:
-        st.success("🐶 Prediction: DOG")
+        st.success("👩‍✈️ Prediction: Female")
 
     # Display probabilities
     st.subheader("Prediction Confidence")
